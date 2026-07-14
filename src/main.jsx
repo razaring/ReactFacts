@@ -1,10 +1,11 @@
 import { createRoot } from "react-dom/client";
+import reactLogo from "./assets/react.svg";
 
 const root = createRoot(document.getElementById("root"));
 
 root.render(
   <main>
-    {/* <img src="./assets/react.svg" width="40px" /> */}
+    <img src={reactLogo} width="40px" alt="React logo" />
     <h1>Fun facts about React!</h1>
     <ul>
       <li>Was first released in 2013</li>
